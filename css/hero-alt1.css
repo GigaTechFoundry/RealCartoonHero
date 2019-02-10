@@ -80,6 +80,13 @@ header
 + ul of Kagome's Squad are contained in this block of code (SEE UL AFTER p.caption) +
 */
 
+h2 
+{
+	color: ##ff99dd;
+	font-size: 80px;
+
+}
+
 img.big-image2
 	{
 		max-width: 100%;
