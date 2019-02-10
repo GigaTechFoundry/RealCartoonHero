@@ -1,0 +1,148 @@
+html, body
+	{
+		font-family: Arial, sans-serif;
+		margin: 0;
+	}
+
+/*  
+************************************************************************************
+Specified font and margin size notated throughout website      ^ CODE ^
+************************************************************************************
+*/
+
+header
+	{
+		background-color: #00b8e6;
+		background-image: url('../img/head-pic1.jpg');
+		background-size: 50px 50px;          /*specifies size of b-ground pic*/
+		background-repeat: repeat;
+		padding: 40px;
+		text-align: center;
+	}
+
+	h1
+		{
+			font-size: 90px;
+			color: white;
+			text-shadow: 0 4px 20px black;
+			margin: 0;
+			text-transform: uppercase;
+		}
+
+		header img
+			{
+				border-radius: 174px;
+				width: 300px;
+				height: 300px;
+				border: 10px solid #004d1a;
+				box-shadow: 0 10px 20px black;
+    		}
+
+/* Design for header * ^ CODE ^
+**********************************************
+<header>
+	<img src="img/profile.jpg">
+	<h1>Kagome</h1>
+
+</header>
+***********************************************
+*/
+
+.content
+	{
+		max-width: 900px;
+		margin: 0 auto;
+		padding: 0 20px;
+	}
+
+/* Design for characteristics and about me sections  ^ CODE ^
+*********************************************************************************************
+<div class="content">
+<h2>About Kagome</h2>
+<p>An anime heroine who helps a puppy destroy his brother and save the world</p>
+<h2>Characteristics</h2>
+<ol>
+<li>Friendly</li>
+<li>Sometimes Bossy to Inuyasha</li>
+<li>Has an affinity of getting in serious trouble and not wanting help to get out of it</li>
+</ol>
+
+---------------------------------SPACE FOR IMAGE AND CAPTION CODE-----------------------------
+
+<h2>Ralph's friends</h2>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Inuyasha_(character)" target="_blank" title="Sit Boy!">Inuyasha</a></li>
+<li><a href="https://inuyasha.fandom.com/wiki/Kirara" target="_blank" title="Kilailai Kawaii Desu">Kilailai</a></li>
+<li><a href="https://inuyasha.fandom.com/wiki/Miroku" target="_blank" title="UGHHHHHH">Pervy Sage</a></li>
+</ul>
+
+***********************************************************************************************
++ ul of Kagome's Squad are contained in this block of code (SEE UL AFTER p.caption) +
+*/
+
+img.big-image2
+	{
+		max-width: 100%;
+	}
+
+p.caption
+	{
+		font-size: 16px;
+		color: lightgrey;
+		font-style: italic;
+	}
+
+/* Design for image and captions      ^ CODE ^
+********************************************************************************************************
+   <img class="big-image2" src="img/big-image2.jpg">
+   <p class="caption"> This is Kagome in action</p>
+*********************************************************************************************************
+*/
+
+ul
+	{
+		list-style: none;
+		padding: 0;
+		margin: 0;
+	}
+
+	a
+		{
+			color:green;
+			text-decoration: none;
+		}
+
+footer
+	{
+		margin-top: 20px;
+		padding: 40px 20px;
+		background-color: #E6E6E6;
+	}
+
+	footer ul
+		{
+			text-align: center;
+		}
+
+		footer ul li
+			{
+				display: inline-block;
+				margin:0 5px;
+			}
+/* Design for footer ^ CODE ^
+**********************************************
+
+   <footer>
+   	<ul>
+   		<li>Made By <a href="http://GigaTechFoundry.co" target="_blank" title="Visit Website">Terrell</a></li>
+   		<li>Made During a <a href="http://SkillShare.com" target="_blank" title="Visit SkillShare's Website">SkillShare</a> Class</li>
+   		<li>&copy; 2019</li>
+   	</ul>
+
+***********************************************
+*/
+
+
+
+
+
