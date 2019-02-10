@@ -38,6 +38,12 @@ header
 				box-shadow: 0 10px 20px black;
     		}
 
+ h2
+{
+	font-size: 60px;
+	color: pink;
+}
+
 /* Design for header * ^ CODE ^
 **********************************************
 <header>
@@ -53,6 +59,7 @@ header
 		max-width: 900px;
 		margin: 0 auto;
 		padding: 0 20px;
+		text-align: center;
 	}
 
 /* Design for characteristics and about me sections  ^ CODE ^
@@ -80,12 +87,7 @@ header
 + ul of Kagome's Squad are contained in this block of code (SEE UL AFTER p.caption) +
 */
 
-h2 
-{
-	color: ##ff99dd;
-	font-size: 80px;
 
-}
 
 img.big-image2
 	{
@@ -105,6 +107,15 @@ p.caption
    <p class="caption"> This is Kagome in action</p>
 *********************************************************************************************************
 */
+.name
+{
+	color: purple;
+}
+
+.nick
+{
+	color:red;
+}
 
 ul
 	{
@@ -115,7 +126,7 @@ ul
 
 	a
 		{
-			color:green;
+		
 			text-decoration: none;
 		}
 
