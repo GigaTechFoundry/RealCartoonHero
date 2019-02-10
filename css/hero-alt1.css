@@ -60,7 +60,15 @@ header
 		margin: 0 auto;
 		padding: 0 20px;
 		text-align: center;
+
 	}
+
+ol li
+{
+
+list-style-type: none;
+
+}
 
 /* Design for characteristics and about me sections  ^ CODE ^
 *********************************************************************************************
@@ -109,12 +117,12 @@ p.caption
 */
 .name
 {
-	color: purple;
+	color:indigo;
 }
 
 .nick
 {
-	color:red;
+	color:purple;
 }
 
 ul
@@ -126,7 +134,7 @@ ul
 
 	a
 		{
-		
+			color:green;
 			text-decoration: none;
 		}
 
