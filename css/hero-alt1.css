@@ -117,16 +117,17 @@ p.caption
    <img class="big-image2" src="img/big-image2.jpg">
    <p class="caption"> This is Kagome in action</p>
 *********************************************************************************************************
-*/
+
 .name
 {
 	color:indigo;
 }
-
+							+used seperate classes to color specified text until i fixed issue
 .nick
 {
 	color:purple;
 }
+*/
 
 ul
 	{

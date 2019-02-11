@@ -47,10 +47,6 @@ p.caption
 	color: lightgrey;
 	font-style: italic;
 }
-a:hover
-{
-	background-color: plum;
-}
 
 ul
 {
@@ -65,7 +61,10 @@ a{
 	text-decoration: none;
 }
 
-
+a:hover
+{
+	background-color: plum;
+}
 
 footer
 {
