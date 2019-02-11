@@ -25,7 +25,7 @@ header
 		{
 			font-size: 90px;
 			color: white;
-			text-shadow: 0 4px 20px black;
+			text-shadow: 0 4px 20px plum;
 			margin: 0;
 			text-transform: uppercase;
 		}
@@ -36,7 +36,7 @@ header
 				width: 300px;
 				height: 300px;
 				border: 10px solid #004d1a;
-				box-shadow: 0 10px 20px black;
+				box-shadow: 0 10px 20px plum;
     		}
 
  h2
