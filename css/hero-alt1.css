@@ -13,7 +13,7 @@ Specified font and margin size notated throughout website      ^ CODE ^
 
 header
 	{
-		background-color: #00b8e6;
+		/*background-color: #00b8e6;*/
 		background-image: url('../img/head-pic1.jpg');
 		background-size: 50px 50px;          /*specifies size of b-ground pic*/
 		background-repeat: repeat;
